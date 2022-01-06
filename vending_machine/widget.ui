@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QLCDNumber" name="lcdNumber">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>120</y>
+     <width>251</width>
+     <height>101</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbCoin500">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>280</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>500</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbcoin100">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>340</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbCoin50">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>410</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>50</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbCoin10">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>470</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>10</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbCoffee">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>310</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Coffee (200)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbTea">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>380</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tea (150)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbMilk">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>440</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Milk (100)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>520</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
